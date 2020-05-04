@@ -52,3 +52,6 @@ Thumbs.db
 .history/
 .vscode/tasks.json
 package-lock.json
+
+#extra
+yt.file.md
