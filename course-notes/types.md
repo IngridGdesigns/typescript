@@ -3,7 +3,8 @@
 - number >> 1, 5, 3, -10 >> all numbers >> no difference between integers or floats
 - strings >> 'hola', "salute", `hey` >> All text values
 - boolean >> true, false >> no "truthy" or "falsy" values
-- object >> {location: Cuba} >> Any Javascript object, more specific types (type of object)
+- object >> { location: Cuba } >> Any Javascript object, more specific types (type of object)
+- array >> [ 1, 'hi', false ] >> Any javascript array, supports numbers, strings, booleans, type can be flexible or strict (regarding the element type)
 
 The Type system checks the validity of the supplied values, before they are stored or manipulated the program. You will see an error when you compile if you try to assign parameters that aren't the type you specfied. See course-notes/exercise_1.ts for example.
 
@@ -67,3 +68,19 @@ Type '7' is not assignable to type 'string'
 That's the core task of Typescript!
 
 ## Objects
+
+An object is an instance which contains set of key value pairs. Objects in Typescript must be an instance of a particular type.
+
+```typescript
+const dessert = {
+  name = 'Donut',
+  flavor = 'chocolate',
+  bake: function () {}, // Type template
+};
+dessert.bake = function () {
+  console.log('Add two bars of ' + dessert.flavor);
+};
+dessert.bake();
+```
+
+On compiling, it will generate the same code in javascript, the output will be `Add two bars of chocolate`/
