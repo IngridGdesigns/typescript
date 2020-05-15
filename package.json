@@ -12,7 +12,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "lite-server"
   },
-    "devDependencies": {
+  "dependencies": {
+    "@types/node": "^13.13.5"
+  },
+  "devDependencies": {
     "lite-server": "^2.5.4"
   },
   "author": "",
