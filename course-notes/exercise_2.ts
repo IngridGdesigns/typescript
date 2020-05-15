@@ -1,3 +1,4 @@
+// exercise 1 - Objects
 // Typescripts representation of an object type, that jelps typescript undertand
 // const flower: {
 //   name: string;
@@ -10,7 +11,7 @@ const flower = {
 
 console.log(flower.name);
 
-// example 2
+// example 2 - Arrays
 const student = {
   name: 'Morgan',
   age: 26,
