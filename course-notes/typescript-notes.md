@@ -7,7 +7,7 @@
 - Array >> [ 1, 'hi', false ] >> Any javascript array, supports numbers, strings, booleans, type can be flexible or strict (regarding the element type)
 - Tuple >> [2, 3] >> Not in javascript. It is an array, but a fixed length array with a fixed types.
 - Enum >> enum { NEW, OLD } >> doesn't exist in javascript. It gives you a enumerated list, global constant identifiers
-- Any >> everything* >> A very flexible type, that should be avoided whenever possible.
+- Any >> everything\* >> A very flexible type, that should be avoided whenever possible.
 
 The Type system checks the validity of the supplied values, before they are stored or manipulated the program. You will see an error when you compile if you try to assign parameters that aren't the type you specfied. See course-notes/exercise_1.ts for example.
 
@@ -86,7 +86,7 @@ dessert.bake = function () {
 dessert.bake();
 ```
 
-On compiling, it will generate the same code in javascript, the output will be `Add two bars of chocolate`/
+On compiling, it will generate the same code in javascript, the output will be : `Add two bars of chocolate`
 
 ## Array
 
@@ -102,7 +102,7 @@ let shoppingList: Array<string> = ['oranges', 'lettuce', 'napkins'];
 
 ## Tuple
 
-A Tuple is a special construct that typescript understands. It has a fixed length array that's typed, a very specific array. Example:
+A Tuple is a special construct that typescript understands. It has a fixed length array that's typed, Example:
 
 ```typescript
 const student = {
@@ -135,7 +135,7 @@ enum Direction {
 
 ## Any
 
-Any takes away all advantages of Typescipt. The compiler won't be able to check it when compiled. You can use as a fallback but it puts you at a disadvantage and it could be error prone. Be explicit and let Typescipt inference do it's job. Try to avoid Any as much as possible.
+Any takes away all advantages of Typescipt. The compiler won't be able to check it when compiled. You can use it as a fallback but it puts you at a disadvantage and it could be error prone. Be explicit and let Typescipt inference do it's job! Try to avoid Any as much as possible.
 
 ## Union Types
 
