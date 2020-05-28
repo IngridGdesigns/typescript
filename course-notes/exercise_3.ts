@@ -16,14 +16,17 @@ console.log(combineAges);
 const combineWords = combine('sun', 'shine');
 console.log(combineWords);
 
+// example 3: Aliases
+type Combinable = number | string; // avoid typos and write code quicker
+
 // example 2: Literal types
 function combineAll(
   input1: number | string,
-  input2: number | string,
+  input2: Combinable, // Alias used here
   resultConversion: 'as-number' | 'as-text' // Only these two values, no other value will be allowed
   //often used in the context of a union type. We use these two literal types
 ) {
-  let result: number | string;
+  let result: Combinable;
 
   if (
     (typeof input1 === 'number' && typeof input2 === 'number') ||
