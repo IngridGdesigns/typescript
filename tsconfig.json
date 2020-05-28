@@ -1,12 +1,10 @@
 {
-    "compilerOptions": {
-        "module": "system",
-        "allowJs": true,
-        "declaration": false,
-        "noEmit": true,
-        "esModuleInterop": true,
-        "types": [
-            "node",
-        ]
-    }
+  "compilerOptions": {
+    "module": "system",
+    "allowJs": true,
+    "declaration": false,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "types": ["node"]
+  }
 }
