@@ -1,4 +1,4 @@
-// exercise 1 - Objects
+// ex 1: Objects
 // Typescripts representation of an object type, that jelps typescript undertand
 // const flower: {
 //   name: string;
@@ -11,7 +11,7 @@ const flower = {
 
 console.log(flower.name);
 
-// example 2 - Arrays
+// ex 2: Arrays
 const student = {
   name: 'Morgan',
   age: 26,
@@ -32,7 +32,7 @@ for (const hobby of student.hobbies) {
   //knows for certainty that hobby will be a string because of the types defined in student
 }
 
-// example 3 - Tuples
+// ex 3: Tuples
 type employees = {
   // this is a type
   name: string;
@@ -52,7 +52,7 @@ console.log(teachers);
 // you will get errors if you try to assign
 // more than two variables in a Tuple
 
-// example 4 - Enums
+// ex 4: Enums
 enum Roles { // custom type
   ADMIN,
   READ_ONLY,

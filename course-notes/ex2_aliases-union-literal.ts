@@ -1,4 +1,4 @@
-//example 1:  Union type
+//ex 1:  Union type
 function combine(input1: number | string, input2: number | string) {
   let result: number | string;
 
@@ -16,10 +16,10 @@ console.log(combineAges);
 const combineWords = combine('sun', 'shine');
 console.log(combineWords);
 
-// example 3: Aliases
+// ex 3: Aliases
 type Combinable = number | string; // avoid typos and write code quicker
 
-// example 2: Literal types
+// ex 2: Literal types
 function combineAll(
   input1: number | string,
   input2: Combinable, // Alias used here

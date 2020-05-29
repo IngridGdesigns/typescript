@@ -159,3 +159,4 @@ function combine(input1: string | number, input2: string | number) {
 const combinedIngredients = combine('chocolate_', 'donut!');
 // Output : chocolate_donut!
 ```
+# Functions
