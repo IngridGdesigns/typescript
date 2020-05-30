@@ -23,10 +23,10 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IngridGdesigns/typescript.git"
+    "url": "git+https://github.com/IngridGdesigns/typescript-playground.git"
   },
   "bugs": {
-    "url": "https://github.com/IngridGdesigns/typescript/issues"
+    "url": "https://github.com/IngridGdesigns/typescript-playground/issues"
   },
-  "homepage": "https://github.com/IngridGdesigns/typescript#readme"
+  "homepage": "https://github.com/IngridGdesigns/typescript-playground#readme"
 }
