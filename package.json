@@ -1,7 +1,7 @@
 {
   "name": "typescript",
   "version": "1.0.0",
-  "description": "'a practice typescript file'",
+  "description": "a practice typescript file",
   "main": "app.js",
   "keywords": [
     "typescript",
