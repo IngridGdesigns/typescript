@@ -13,7 +13,8 @@
     "start": "lite-server"
   },
   "dependencies": {
-    "@types/node": "^13.13.5"
+    "@types/node": "^13.13.5",
+    "typescript": "^3.9.3"
   },
   "devDependencies": {
     "lite-server": "^2.5.4"
