@@ -159,4 +159,28 @@ function combine(input1: string | number, input2: string | number) {
 const combinedIngredients = combine('chocolate_', 'donut!');
 // Output : chocolate_donut!
 ```
+
 # Functions
+
+# Typescript Compiler
+
+## Watch mode
+Tell typescript to watch that file and recompile by using watch mode. Watch mode will detect any changes when you save, to enter watch mode enter the following in your project terminal:
+
+```.txt
+tsc app.ts -watch
+// or
+tsc app.ts -w
+```
+
+You will see the following message in the terminal when you are in watch mode when you save a change:
+
+```
+file change det4ected. Starting incremental compilation...
+Found 0 errors. Watching file changes.
+```
+
+To quit watch mode use CTRL + C.
+Watch mode is a great start but only targets the main file in a project. So if your file is bigger and more complex, it won't be much use. 
+
+A better alternative is using 
